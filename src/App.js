@@ -1,3 +1,4 @@
+import React from 'react';
 import uuid from 'react-uuid';
 import { useEffect, useState } from 'react';
 import './App.css';
