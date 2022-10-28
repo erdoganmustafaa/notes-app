@@ -13,8 +13,8 @@ function App() {
     if (savedNotes){
       setNotes(savedNotes);
     }
-    localStorage.setItem("notes",JSON.stringify(notes))
-  },[notes])
+   
+  },[])
   const onAddNote = ()=>{
     const newNote = {
       id: uuid(),
